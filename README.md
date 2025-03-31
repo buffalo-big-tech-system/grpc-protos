@@ -1,1 +1,1 @@
-# grpc-sso-go
+# Bookcenter GRPC in GO
