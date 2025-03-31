@@ -233,7 +233,7 @@ const file_proto_bookcenter_bookcenter_proto_rawDesc = "" +
 	"\n" +
 	"Bookcenter\x12?\n" +
 	"\rGetTotalPages\x12\x16.google.protobuf.Empty\x1a\x16.GetTotalPagesResponse\x12A\n" +
-	"\x0eGetBooksByPage\x12\x16.GetBooksByPageRequest\x1a\x17.GetBooksByPageResponseB\x1cZ\x1abookcenter.v1;bookcenterv1b\x06proto3"
+	"\x0eGetBooksByPage\x12\x16.GetBooksByPageRequest\x1a\x17.GetBooksByPageResponseB$Z\"buffalo.bookcenter.v1;bookcenterv1b\x06proto3"
 
 var (
 	file_proto_bookcenter_bookcenter_proto_rawDescOnce sync.Once

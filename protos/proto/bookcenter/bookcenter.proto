@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package="bookcenter.v1;bookcenterv1";
+option go_package="buffalo.bookcenter.v1;bookcenterv1";
 
 import "google/protobuf/empty.proto";
 

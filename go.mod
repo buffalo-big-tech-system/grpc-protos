@@ -1,3 +1,3 @@
-module github.com/bookstore-grpc-go/protos
+module github.com/buffalo-big-tech-system/bookcenter-grpc-go
 
 go 1.24.1
