@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package="bookcenter.v1;bookcenterv1";
+
+import "google/protobuf/empty.proto";
+
+service Bookcenter {
+    rpc GetTotalPages (google.protobuf.Empty) returns (GetTotalPagesResponse);
+    rpc GetBooksByPage (GetBooksByPageRequest) returns (GetBooksByPageResponse);
+}
+
+message GetTotalPagesResponse {
+    uint32 count = 1;
+}
+
+message GetBooksByPageRequest {
+    uint32 page_index = 1;
+}
+
+message Book {
+    int32 id = 1;
+    string title = 2;
+    string name = 3;
+}
+
+message GetBooksByPageResponse {
+    repeated Book books = 1;
+}
